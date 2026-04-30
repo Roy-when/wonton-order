@@ -171,7 +171,7 @@
       background: var(--gray-100);
       cursor: pointer;
       font-size: 20px;
-      line-height: 1;
+      line-height: 1;F
       color: var(--text-primary);
       display: flex; align-items: center; justify-content: center;
       transition: background 0.15s, border-color 0.15s;
@@ -311,11 +311,6 @@
 
 <div class="container">
 
-  <!-- ⚠️ 部署前請先移除此區塊 -->
-  <div class="notice" id="setup-notice">
-    <strong>⚙️ 設定提醒（上線前請移除此訊息）：</strong><br>
-    請將 <code>SCRIPT_URL</code> 換成你的 Google Apps Script 網址，詳見 README。
-  </div>
 
   <div class="section-title">選擇方案</div>
   <div class="plans" id="plans">
@@ -404,7 +399,7 @@
 
 <script>
   // ✅ 請將此換成你的 Google Apps Script 部署網址
-  const SCRIPT_URL = "YOUR_GOOGLE_APPS_SCRIPT_URL_HERE";
+  const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyZa2sQlC4lPdtU0jTArjLe3t5tnCgwM1kIjGk7xwvk/dev";
 
   const plans = [
     { name: "小份", count: 30, price: 135, per: "4.5" },
